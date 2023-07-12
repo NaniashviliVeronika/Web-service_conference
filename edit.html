@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Выберите конференцию для изменения | Факультет математики и компьютерных наук</title>
+</head>
+<header>
+  <div class="header_admin">
+    <div class="inner">
+      <h1>Администрирование</h1>
+       <h2>Добро пожаловать! /
+         <a href="admin.html" class="inner_admin">Выйти /</a>
+         <a href="edit.html" class="inner_admin">Изменить конференцию /</a>
+         <a href="add.html" class="inner_admin">Добавить конференцию</a></h2>
+ </div>
+</header>
+<main>
+  <h1 class="page-title_1">Выберите конференцию для изменения<h1>
+   <div class="main-content_admin">
+     <div class="account">
+       <h5>Выберите конференцию для изменения</h5>
+       <h6></h6>
+         <hr class="line">
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="conf_first" id="conf_first" >
+             <label class="form-check-label" for="conf_first">
+               Пленарное заседание,посвященное 115-летию со дня рождения академика Льва Семеновича Понтрягина 1 часть
+             </label>
+          </div>
+         <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="conf_second" id="conf_second" >
+            <label class="form-check-label" for="conf_second">
+              Пленарное заседание,посвященное 115-летию со дня рождения академика Льва Семеновича Понтрягина 2 часть
+            </label>
+          </div>
+          <button class="changebtn" onclick="document.location='change.html'">Изменить</button>
+      </div>
+   </div>
+ </main>
+</html>

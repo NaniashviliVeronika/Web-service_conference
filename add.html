@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Добавить конференцию | Факультет математики и компьютерных наук</title>
+</head>
+<header>
+  <div class="header_admin">
+    <div class="inner">
+      <h1>Администрирование</h1>
+       <h2>Добро пожаловать! /
+         <a href="admin.html" class="inner_admin">Выйти /</a>
+         <a href="edit.html" class="inner_admin">Изменить конференцию /</a>
+         <a href="add.html" class="inner_admin">Добавить конференцию</a></h2>
+ </div>
+</header>
+<main>
+  <h1 class="page-title_1">Добавить конференцию<h1>
+   <div class="main-content_admin">
+     <div class="account">
+       <h5>Добавить конференцию</h5>
+       <h6></h6>
+         <hr class="line">
+         <div class="border">
+           <p><label for="caption" class="text"><b>Заголовок / Heading:</b></label></p>
+           <input type="text" name="caption" class="field_long" required>
+         </div>
+         <div class="border">
+           <p><label for="chairman" class="text"><b>Председатель / Chairman:</b></label></p>
+           <input type="text" name="chairman" class="field"  required>
+         </div>
+         <div class="border">
+           <p><label for="date" class="text"><b>Дата конференции / Date of the conference:</b></label></p>
+           <input type="text" name="date" class="field"  required>
+         </div>
+         <div class="border">
+           <p><label for="form" class="text"><b>Форма участия / Form of participation:</b></label></p>
+           <label class=button>
+             <input type="radio" name="trip" class="btn" value="och" checked required> 
+              <h3 class="choose">Очная</h3>
+           </label>
+           <label class="button">
+             <input type="radio" name="trip" class="btn" value="zaoch"required> 
+              <h3 class="choose">Заочная</h3>
+           </label>
+         </div>
+         <div class="border">
+           <p><label for="id" class="text"><b>Идентификатор конференции / Conference ID:</b></label></p>
+           <input type="text" name="id" class="field"  required>
+           <p class="text_3">Необязательное поле</p>
+         </div>
+         <div class="border">
+           <p><label for="code" class="text"><b>Код доступа / Access code:</b></label></p>
+           <input type="text" name="code" class="field"  required>
+           <p class="text_3">Необязательное поле</p>
+         </div>
+          <div class="border">
+           <p><label for="description" class="text"><b>Описание / Description:</b></label></p>
+            <textarea class="field_2"  placeholder="Введите текст"></textarea>
+         </div>
+         <div class="border">
+           <p><label for="col_link" class="text"><b>Cсылка / Link:</b></label></p>
+           <input type="text" name="col_link" class="field_long"  required>
+           <p class="text_3">Необязательное поле</p>
+         </div>
+           <button type="submit" class="savebtn">Сохранить</button>
+        </div>
+     </div>
+   </div>
+ </main>
+</html>
